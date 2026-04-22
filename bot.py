@@ -25,11 +25,11 @@ from bs4 import BeautifulSoup
 # CONFIG
 # =============================================================================
 CONFIG_FILE     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "void_config.json")
-BOT_TOKEN       = "PASTE_YOUR_TELEGRAM_BOT_TOKEN"   # ← replace
+BOT_TOKEN       = "8613601784:AAGPQbhIYwJqc30g99X3yLa6Vhkkl69Nf8I"   # ← replace
 BOOTSTRAP_ADMIN = 5479881365                          # ← replace with your Telegram user ID
 
 # SearXNG — set to "" to skip, or "http://127.0.0.1:8080" after installing
-SEARXNG_URL = ""
+SEARXNG_URL = "http://127.0.0.1:8080"
 
 _CFG_DEFAULTS = {
     "admin_ids":              [BOOTSTRAP_ADMIN],
