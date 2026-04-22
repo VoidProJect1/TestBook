@@ -29,7 +29,7 @@ BOT_TOKEN       = "PASTE_YOUR_TELEGRAM_BOT_TOKEN"   # ← replace
 BOOTSTRAP_ADMIN = 5479881365                          # ← replace with your Telegram user ID
 
 # SearXNG — set to "" to skip, or "http://127.0.0.1:8080" after installing
-SEARXNG_URL = ""
+SEARXNG_URL = "http://127.0.0.1:8080"
 
 _CFG_DEFAULTS = {
     "admin_ids":              [BOOTSTRAP_ADMIN],
